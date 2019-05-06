@@ -28,7 +28,7 @@ public class Game {
                 (field[0][1].getState().equals(field[1][1].getState()) && field[1][1].getState().equals(field[2][1].getState())) ||
                 (field[0][2].getState().equals(field[1][2].getState()) && field[1][2].getState().equals(field[2][2].getState())) ||
                 (field[0][0].getState().equals(field[1][1].getState()) && field[1][1].getState().equals(field[2][2].getState())) ||
-                (field[0][2].getState().equals(field[1][1].getState()) && field[1][1].getState().equals(field[0][2].getState()))
+                (field[0][2].getState().equals(field[1][1].getState()) && field[1][1].getState().equals(field[2][0].getState()))
         )
             win = true;
 
