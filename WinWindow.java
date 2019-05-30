@@ -21,6 +21,8 @@ public class WinWindow extends JFrame {
         else
             text = "Нолики победили";
 
+        Game.winner = state;
+
         JLabel label = new JLabel(text);
         label.setFont(new Font("Default", Font.BOLD, 40));
 

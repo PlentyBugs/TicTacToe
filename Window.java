@@ -29,4 +29,9 @@ public class Window extends JFrame {
         pack();
         setVisible(true);
     }
+
+    @Override
+    public void setVisible(boolean b) {
+        super.setVisible(b);
+    }
 }
